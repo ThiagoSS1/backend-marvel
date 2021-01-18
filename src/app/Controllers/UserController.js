@@ -2,7 +2,7 @@ import axios from "axios";
 import { log } from "../../index";
 import md5 from "md5";
 
-class UserService {
+class UserController {
   constructor() {
     this.apikey = '8511cbdf6ae102f0c00291bac4abc769251ab212';
     this.publicKey = '0815706caa1f1e48d329f76973de1681';
@@ -56,4 +56,4 @@ class UserService {
 
 }
 
-export default UserService;
+export default UserController;
