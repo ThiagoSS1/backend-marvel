@@ -3,7 +3,7 @@ import {
 } from "express";
 const express = require("express");
 
-import UserController from "./app/services/UserController";
+import UserController from "./app/Controllers/UserController";
 
 const userController = new UserController();
 
