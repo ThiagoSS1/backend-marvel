@@ -38,7 +38,7 @@ class UserController {
 
  async getCharacter(characterId) {
 
-    const url = `https://gateway.marvel.com/v1/public/characters/${characterId}?apikey=${this.pu}&hash=${this.hash}&ts=${this.ts}`;
+    const url = `https://gateway.marvel.com/v1/public/characters/${characterId}?apikey=${this.publicKey}&hash=${this.hash}&ts=${this.ts}`;
 
     const hero = axios
       .get(url)
