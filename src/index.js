@@ -5,6 +5,7 @@ import routes from './router';
 const log = [];
 
 const app = express();
+const port = process.env.PORT || 3333;
 
 app.use((req, res, next) => {
   console.log(`Metodo: ${req.method}, URL:${req.url}, IP: ${req.ip}, Parametro ${req.params}`)
@@ -20,7 +21,7 @@ app.use(cors());
 
 app.use(routes);
 
-app.listen(8080);
+app.listen(port);
 
 export {
   log
