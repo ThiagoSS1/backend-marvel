@@ -27,8 +27,6 @@ O  BootCamp é  uma experiência online com muito conteúdo prático.
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- HTML
-- CSS
 - JavaScript
 
 ## 📝 Licença
