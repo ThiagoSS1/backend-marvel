@@ -14,7 +14,7 @@ Back-End Marvel$ - Concluído 🚀 🚧
   
 ## 💻 Sobre o projeto
 
-$ Back End Marvel$ - O  é uma aplicação onde atraves da API da Marvel buscar os nomes dos herois
+$ Back End Marvel$ - É uma aplicação onde atraves da API da Marvel buscar os nomes dos herois
 
 
 Projeto desenvolvido durante o **Boot Camp da GrowDev** oferecida pela [GrowDev].
